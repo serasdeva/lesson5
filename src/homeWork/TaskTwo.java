@@ -14,6 +14,7 @@ public class TaskTwo {
     public static int countWords(String[] words1, String[] words2) {
         if (words1.length > words2.length) {
             return countWords(words2, words1);
+
         }
 
         Map<String, Integer> map = new HashMap<>();
