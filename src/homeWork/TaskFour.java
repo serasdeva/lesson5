@@ -28,6 +28,7 @@ public class TaskFour {
                 sum += map.get(ch) - 2 * map.get(s.charAt(i - 1));
             } else {
                 sum += map.get(ch);
+
             }
         }
 
