@@ -9,7 +9,6 @@ public class TaskThree {
     public static void main(String[] args) {
         int[] ans = intersect(nums1, nums2);
         System.out.println(Arrays.toString(ans));
-
     }
 
     public static int[] intersect(int[] nums1, int[] nums2) {
