@@ -19,6 +19,7 @@ public class TaskOne {
                 }
             }
             mapArr.put(numbs[i], i);
+
         }
         return false;
     }
